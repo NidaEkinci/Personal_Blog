@@ -22,4 +22,6 @@ Visual Studio Code'da *Live Server* eklentisini kullanarak projeyi çalıştır�
 - Proje klasörünü açın.
 - HTML dosyasına sağ tıklayın ve "Open with Live Server" seçeneğini tıklayın.
 
+## Uygulama Domain Adresi
 
+Uygulamanızın erişim adresi: [https://nidaekinci.vercel.app](https://nidaekinci.vercel.app)
