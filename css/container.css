@@ -1,7 +1,6 @@
 .container{
     display: flex;   
     margin-top: 30px;
-   /* flex-direction: column;  Dikey yönde düzenler */
     align-items: flex-start; 
 }
 
@@ -19,15 +18,15 @@
 }
 
 .container .image div{
-    text-align: center; /* Yazıları ortalar */
-    margin-top: 15px; /* Üstten boşluk bırakır */
+    text-align: center;
+    margin-top: 15px;
     margin-left: 20px;
 }
 
 .container .image div p{
     font-style: inherit;
     color: black;
-    margin: 3px 0; /* Paragraflar arasına boşluk bırakır */
+    margin: 3px 0;
 }
   
 .container .info-box{
@@ -39,7 +38,7 @@
 }
   
 .container .info-box h3{
-    background-color: rgba(0, 0, 0, 0.1); /* Daha koyu renk */
+    background-color: rgba(0, 0, 0, 0.1);
     color: black;
     padding: 0.5rem;
     border-radius: 4px;
@@ -51,9 +50,9 @@
 }
   
 .container .info-box iframe{
-    width: 80%; /* Video genişliği */
-    height: 250px; /* Video yüksekliği */
-    border: none; /* Kenar çerçevesi olmaması için */
+    width: 80%;
+    height: 250px;
+    border: none;
     display: flex;
     margin: 20px auto;
 }
