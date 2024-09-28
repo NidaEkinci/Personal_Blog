@@ -3,7 +3,6 @@ Bu proje, kendime ait bir kişisel blog uygulamasıdır.
 
 ## Özellikler
 
-- Responsive tasarım
 - YouTube video embed
 - Açılır/kapanır içerik bölümleri (JS)
 
@@ -24,4 +23,4 @@ Visual Studio Code'da *Live Server* eklentisini kullanarak projeyi çalıştır�
 
 ## Uygulama Domain Adresi
 
-Uygulamanızın erişim adresi: [https://nidaekinci.vercel.app](https://nidaekinci.vercel.app)
+[https://nidaekinci.vercel.app](https://nidaekinci.vercel.app)
