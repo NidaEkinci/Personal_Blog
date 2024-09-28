@@ -1,0 +1,61 @@
+.container{
+    display: flex;   
+    margin-top: 30px;
+   /* flex-direction: column;  Dikey yönde düzenler */
+    align-items: flex-start; 
+}
+
+.container .image{
+    position: relative;
+}
+
+.container .image img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.container .image div{
+    text-align: center; /* Yazıları ortalar */
+    margin-top: 15px; /* Üstten boşluk bırakır */
+    margin-left: 20px;
+}
+
+.container .image div p{
+    font-style: inherit;
+    color: black;
+    margin: 3px 0; /* Paragraflar arasına boşluk bırakır */
+}
+  
+.container .info-box{
+    display: grid;
+    grid-template-columns: 1fr; /* Tek sütun */   
+    background-color: hsla(0, 3%, 87%, 0.758);
+    padding: 1rem;
+    margin-left: 30px;
+    border-radius: 8px;
+    width: 900px;
+}
+  
+.container .info-box h3{
+    background-color: rgba(0, 0, 0, 0.1); /* Daha koyu renk */
+    color: black;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+  
+.container .info-box p{
+    color: #333;
+    margin: 20px auto;
+}
+  
+.container .info-box iframe{
+    width: 80%; /* Video genişliği */
+    height: 400px; /* Video yüksekliği */
+    border: none; /* Kenar çerçevesi olmaması için */
+    display: flex;
+    margin: 20px auto;
+}

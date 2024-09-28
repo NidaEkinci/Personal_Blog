@@ -1,0 +1,24 @@
+footer .footer{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: hsl(0, 3%, 87%);
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+
+}
+
+footer .footer .left, footer .footer .right{
+    flex: 2;
+    height: 100%;
+    font-size: 0.9rem;
+}
+
+footer .footer .center{
+    flex: 8;
+    height: 100%;
+}

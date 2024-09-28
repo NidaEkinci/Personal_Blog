@@ -1,0 +1,17 @@
+.content {
+    display: none;
+    margin-bottom: 30px;
+    flex: 1;  /* İçeriğin doğru şekilde ekrana sığması için */
+    padding: 20px;
+    overflow: auto;
+}
+
+.active + .content {
+    display: block;
+
+}
+
+h3.clickable{
+    cursor: pointer;
+    margin-bottom: 30px;
+}

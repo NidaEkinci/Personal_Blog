@@ -1,0 +1,41 @@
+.navigator {
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+    background-color: hsla(0, 3%, 87%, 0.758);
+    padding: 1rem;
+}
+  
+.navigator .left, .navigator .right{
+    flex: 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigator .center{
+    flex: 8;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+.navigator .left a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;  
+}
+
+.navigator .center a{ 
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+  
+.navigator .center a:hover{
+    background-color: hsla(0, 1%, 69%, 0.758);
+    border-radius: 5px;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog</title>
+        <link rel="icon" href="/Personal_Blog/image/succulent.png" type="image/x-icon">
+        <link rel="stylesheet" href="/Personal_Blog/styles2.css">
+        <style>
+            body{
+                background-size: cover;
+                background-repeat: repeat;
+                min-height: 100vh; /* Tüm ekran yüksekliği kadar olacak şekilde ayarla */
+                display: flex;
+                flex-direction: column;
+                background-color: rgba(240,241,243,255);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="background-image"></div>
+        <div class="navigator">
+            <div class="left">
+                <a href="https://www.linkedin.com/in/nida-ekinci/" target="_blank">                   
+                    <img src="/Personal_Blog/image/linkedin.png" alt="Linkedin">                                      
+                </a>
+                <a href="https://github.com/NidaEkinci" target="_blank">
+                    <img src="/Personal_Blog/image/github.png" alt="Github">
+                </a>
+                <a href="https://www.instagram.com/nida_111_/" target="_blank">
+                    <img src="/Personal_Blog/image/instagram.png" alt="İnstagram">
+                </a>
+            </div>
+            <div class="center">
+                <a href="/Personal_Blog/index.html">ANASAYFA</a>
+                <a href="/Personal_Blog/html/blog.html">BLOG</a>
+            </div>
+            <div class="right">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="image">
+                <img src="/Personal_Blog/image/MyPhoto.jpeg" alt="Foto">
+                <div>
+                    <p><strong>Nida Ekinci</strong></p>
+                    <p>Süleyman Demirel Üniversitesi</p>
+                    <p>Bilgisayar Mühendisliği</p>                   
+                </div>
+            </div>                      
+            <div class="info-box">
+                <h3 class="clickable" onclick="toggleContent(this)">1- SDÜ'de Bilgisayar Mühendisliği Okumak</h3>
+                <div class="content">
+                    <p>
+                        SDÜ Bilgisayar Mühendisliği lisans eğitiminde isteğe bağlı (1 yıl) yabancı dil hazırlık
+                        sınıfı uygulaması vardır. Bölüme başlayan öğrenciler için; 4 yıl (8 dönem) eğitim
+                        uygulanmaktadır ve ilk dönemlerde temel mühendislik dersleri öğretilir. Bu
+                        dersler de en az alan dersleri kadar önemli ve ciddi çalışma gerektirmektedir.
+                        İlerleyen dönemlerinde alan dersleri sayısının artması, teorik ve uygulamalı
+                        eğitimlerle birlikte öğrencilerin mesleki deneyim kazanması hedeflenmektedir.                       
+                    </p>
+                    <p>
+                        Eğitimin ilk dönemlerinde Kalkülüs, Fizik, Lineer Cebir, Ayrık Matematik,
+                        Diferansiyel Denklemler, Elektronik Devreler, Olasılık Teorisi ve İstatistik gibi
+                        temel mühendislik derslerine ek olarak; Bilgisayar Mühendisliğine Giriş,
+                        Algoritma, Programlama, Veri Yapıları ve Lojik Devreler konularında alan
+                        dersleri anlatılır.                       
+                    </p>
+                    <p>
+                        İleri dönemlerde ağırlıklı olarak alan dersleri verilir. Öğrenciler; ilgili
+                        dönemlerde açılan seçmeli dersler havuzlarından istedikleri dersleri alarak,
+                        çalışmak istedikleri ve ilgi duydukları konularda kendilerini geliştirebilirler.
+                    </p>
+                    <p>
+                        Öğrenciler eğitimlerini tamamlamak için derslere ek olarak, yazılım (20 iş günü)
+                        ve donanım (20 iş günü) konularında iki adet zorunlu staj yapmalıdır. Bu iş yeri
+                        stajlarının 4. ve 6. yarıyıl sonlarında birer tane olacak şekilde yapılması beklenir.
+                        Stajlar süresince, her öğrencinin mesleki deneyim ve pratik kazanması
+                        hedeflenmektedir.
+                    </p>
+                    <p>
+                        Bilgisayar mühendisleri günümüzde devlet kurumlarında ve özel sektörde
+                        çalışabilirler. Savunma sanayinde iş bulabilir, uzaktan çalışabilir, proje bazlı iş
+                        alarak eş zamanlı proje geliştirebilir, kendi işlerini kurabilir veya akademik
+                        olarak kariyer yapabilirler. Bilgisayar Mühendisliği’nin farklı alt alanlarında
+                        kendilerini geliştirerek uzmanlaşabilirler.                      
+                    </p>
+                    <p>
+                        Mobil Programlama veya Oyun Geliştirme üzerine iş yapabilir, Veri Analisti,
+                        Veri Mimarı veya Veritabanı Uzmanı olarak çalışabilirler. Yazılım Uzmanı,
+                        Ağ Uzmanı veya web tasarım konusunda çalışarak Web Geliştirici olabilirler.
+                        Donanım alanında ilerleyerek Robotik veya Donanım Mühendisi olabilirler.
+                        Kalite Kontrol ve Test Uzmanı, Kontrol Mühendisi, Konfigürasyon
+                        Yöneticisi, İnternet Uzmanı, Siber Güvenlik Uzmanı gibi farklı bir çok
+                        alanda iş yapabilir ve sektörde kendilerine rahatlıkla yer bulabilirler.
+                    </p>
+                    <h4>SDÜ Mühendislik Fakültesi Tanıtım Videosu</h4>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Mr14c1iNiZ0?si=0yOR_0NlrJgIn8sf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            
+                <script>
+                    // Fonksiyon: Başlığa tıklayınca içerik göster/gizle
+                    function toggleContent(element) {
+                        element.classList.toggle("active"); // Aktif sınıfını ekler veya kaldırır
+                    }
+                </script>                
+            </div>
+            <div>
+
+            </div>
+                
+        </div>      
+        
+        <footer>
+            <div class="footer">
+                <div class="left">
+                    <p>nidaekinci2032@gmail.com</p>
+                </div>
+                <div class="center">
+                    <p>&copy; 2024 Nida - 2111012019</p>
+                </div>
+                <div class="right">
+                </div>
+            </div>           
+        </footer>
+        
+    </body>
+</html>
