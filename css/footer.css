@@ -22,3 +22,19 @@ footer .footer .center{
     flex: 8;
     height: 100%;
 }
+
+@media (max-width: 768px) {  
+    footer .footer .left{
+        flex: 6;
+        font-size: 0.7rem;
+    }
+
+    footer .footer .right{
+        flex: 0;
+    }
+    
+    footer .footer .center{
+        flex: 6;
+        font-size: 0.7rem;
+    }
+}

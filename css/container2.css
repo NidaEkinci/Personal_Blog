@@ -58,3 +58,39 @@
     display: flex;
     margin: 20px auto;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+        margin-right: 10px;
+    }
+
+    .container .image img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .container .image div{
+        margin-left: 20px;
+    }
+
+    .container .info-box{ 
+        margin-left: 20px;
+    }
+
+    .container .info-box p{
+        margin: 20px auto;
+    }
+
+    .container .info-box iframe{
+        width: 80%;
+        height: 100px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
+}

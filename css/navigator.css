@@ -39,3 +39,10 @@
     background-color: hsla(0, 1%, 69%, 0.758);
     border-radius: 5px;
 }
+
+@media (max-width: 768px) {  
+    .navigator .left a img{
+        width: 0.9rem;
+        height: 0.9rem; 
+    }
+}

@@ -2,7 +2,7 @@
 Bu proje, kendime ait bir kişisel blog uygulamasıdır.
 
 ## Özellikler
-
+- Responsive tasarım
 - YouTube video embed
 - Açılır/kapanır içerik bölümleri (JS)
 

@@ -30,19 +30,18 @@ ul{
     body {
         font-size: 14px;
     }
-
-    .container {
-        padding: 10px;
-    }
 }
 
 @media (max-width: 480px) {
     body {
         font-size: 12px;
     }
+}
 
-    .container {
-        padding: 5px;
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover; /* Daha küçük ekranlarda arkaplanı tam sığdır */
+        background-position: right center; /* Sağa hizala */
     }
 }
 
